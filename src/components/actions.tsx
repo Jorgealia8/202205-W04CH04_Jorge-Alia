@@ -1,4 +1,5 @@
 import React from 'react';
+import { Action } from './action';
 import { Display } from './display';
 
 export function Actions() {
@@ -6,15 +7,7 @@ export function Actions() {
         <>
             <div className="actions">
                 <Display></Display>
-                {/* <!-- El botón de llamar debe tener la clase "activo" cuando --> */}
-                {/* <!-- el número de teléfono tiene 9 cifras --> */}
-                <a href="#" className="call">
-                    Call
-                </a>
-                {/* <!-- Sólo se tiene que ver un botón u otro --> */}
-                <a href="#" className="hang active">
-                    Hang
-                </a>
+                <Action></Action>
             </div>
         </>
     );
