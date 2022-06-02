@@ -1,3 +1,4 @@
+import React from 'react';
 import { Display } from './display';
 
 export function Actions() {
