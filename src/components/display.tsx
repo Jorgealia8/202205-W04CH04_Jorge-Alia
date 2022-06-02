@@ -1,4 +1,4 @@
 import React from 'react';
 export function Display() {
-    return <span className="number">667359961</span>;
+    return <span className="number"></span>;
 }
